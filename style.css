@@ -1990,14 +1990,14 @@ body.showCart{
     max-width: 1000px;
   }
   .first-flex.vintage-chair{
-    width: 70%;
+    width: 50%;
   }
   .first-flex .vintage-chair-content b
   .vase{
-    width: 70%;
+    width: 50%;
   }
-  .vintage-chairs{
-    width: 70%;
+  .first-flex .vintage-chairs{
+    width: 50%;
   }
   .footer{
     width: 100%;
@@ -2006,7 +2006,7 @@ body.showCart{
     width: 100%;
   }
 
-  .vintage-chair-content button {
+  .vintage-chair .vintage-chair-content button {
   padding: 10px;
   border-inline: 2px solid white;
   border-bottom: 2px solid white;
@@ -2024,7 +2024,7 @@ body.showCart{
   left: 200px;
   
 }
-.vase-content button{
+.vase .vase-content button{
   top: 200px;
   left: 200px;
 }
