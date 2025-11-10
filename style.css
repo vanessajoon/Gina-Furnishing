@@ -167,9 +167,10 @@ nav ul li a {
   height: 50vh;
   background-color: #f9d370;
   margin-top: 20px;
+  width: 100%;
 }
 .hero {
-  display: flex;
+  display: flex ;
   justify-content: center;
   gap: 70px;
 }
@@ -1976,4 +1977,30 @@ body.showCart{
 }
 
   
+}
+
+@media only screen 
+  and (device-width: 430px)
+  and (device-height: 932px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+  /* iPhone 15 Pro Max portrait styles */
+  .hero-page{
+    width: 100%;
+  }
+  .vintage-chair{
+    width: 80%;
+  }
+  .vase{
+    width: 80%;
+  }
+  .vintage-chairs{
+    width: 80%;
+  }
+  .footer{
+    width: 100%;
+  }
+  .lower-footer{
+    width: 100%;
+  }
 }
