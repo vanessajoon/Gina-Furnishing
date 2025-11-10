@@ -1483,7 +1483,7 @@ body.showCart{
 
   .vintage-chair {
     height: 50vh;
-    width: 48%;
+    width: 48vh;
     margin-left: 1rem;
     position: relative;
   }
@@ -1524,7 +1524,7 @@ body.showCart{
   }
   .vase {
     height: 50vh;
-    width: 48%;
+    width: 48vh;
     margin-left: 1rem;
     position: relative;
   }
@@ -1608,7 +1608,7 @@ body.showCart{
 }
 
   .display-box {
-    width: 50%;
+    width: 50vh;
     margin-left: -15px;
   }
   .set-img{
@@ -1621,7 +1621,7 @@ body.showCart{
     display: grid;
   }
   .vintage-chairs {
-    width: 49.1%;
+    width: 49.1vh;
     margin-left: 10px;
   }
   .second-flexs {
@@ -1635,7 +1635,7 @@ body.showCart{
     text-align: center;
   }
   .email {
-    width: 50%;
+    width: 50dvh;
     margin-left: -10px;
     margin-top: 15px;
   }
@@ -1643,7 +1643,7 @@ body.showCart{
     padding-top: 1em;
   }
   .email_button button {
-    width: 30%;
+    width: 30vh;
   }
   .email_button button:hover {
     width: 30vh;
@@ -1992,7 +1992,7 @@ body.showCart{
   .first-flex.vintage-chair{
     width: 70%;
   }
-  .first-flex.vintage-chair-content b
+  .first-flex .vintage-chair-content b
   .vase{
     width: 70%;
   }
