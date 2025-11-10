@@ -1385,63 +1385,7 @@ body.showCart{
 }
 
 
-@media only screen 
-  and (device-width: 430px)
-  and (device-height: 932px)
-  and (-webkit-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-  /* iPhone 15 Pro Max portrait styles */
-  .hero-page{
-    width: 100%;
-    max-width: 1000px;
-  }
-  .first-flex .vintage-chair{
-    width: 50%;
-    background-color: #0a032a;
-  }
-  .first-flex .vase{
-    width: 50%;
-    background-color: #0a032a;
-  }
-  .first-flex .vintage-chairs{
-    width: 50%;
-  }
-  .footer{
-    width: 100%;
-  }
-  .lower-footer{
-    width: 100%;
-  }
 
-  .vintage-chair .vintage-chair-content button {
-  padding: 10px;
-  border-inline: 2px solid white;
-  border-bottom: 2px solid white;
-  background-color: cadetblue;
-  border-top: none;
-  backdrop-filter: blur(5px);
-  /* -webkit-backdrop-filter: blur(5px); */
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
-  color: white;
-  font-size: 11px;
-  margin-top: 10px;
-  cursor: pointer;
-  position: absolute;
-  top: 200px;
-  left: 200px;
-  
-}
-.vase .vase-content button{
-  top: 200px;
-  left: 200px;
-}
-.set-img{
-  width: 100%;
-}
-.display-box{
-  width: 75%;
-}
-}
 
 
 
@@ -1492,8 +1436,8 @@ body.showCart{
   .search-section {
     display: none !important;
   }
-  .hero{
-    width: 100%;
+  .hero-page{
+    width: 100% !important;
   }
   .hero-page img {
     height: 180px;
@@ -1540,7 +1484,7 @@ body.showCart{
 
   .vintage-chair {
     height: 50vh;
-    width: 48vh;
+    width: 80%;
     margin-left: 1rem;
     position: relative;
   }
@@ -1563,8 +1507,8 @@ body.showCart{
   margin-top: 10px;
   cursor: pointer;
   position: absolute;
-  top: 180px;
-  left: 180px;
+  top: 200px;
+  left: 200px;
   
 }
   .vintage-chair-content h3 {
@@ -1572,16 +1516,16 @@ body.showCart{
     margin-top: -15px;
     padding-bottom: 5px;
   }
-  .vintage-chair-content button {
-    margin-top: 15px;
+  /* .vintage-chair-content button {
+    margin-top: 20px;
     background-color: black;
-  }
+  } */
   .vintage-chair-content button:hover {
     background-color: cadetblue;
   }
   .vase {
     height: 50vh;
-    width: 48vh;
+    width: 80%;
     margin-left: 1rem;
     position: relative;
   }
@@ -1665,7 +1609,7 @@ body.showCart{
 }
 
   .display-box {
-    width: 50vh;
+    width: 70%;
     margin-left: -15px;
   }
   .set-img{
@@ -1678,7 +1622,7 @@ body.showCart{
     display: grid;
   }
   .vintage-chairs {
-    width: 49.1vh;
+    width: 800%;
     margin-left: 10px;
   }
   .second-flexs {
@@ -1707,6 +1651,12 @@ body.showCart{
   }
   .customer-service {
     display: none;
+  }
+  .footer{
+    width: 100%;
+  }
+  .lower-footer{
+    width: 100%;
   }
   .footer-content3 {
     display: no;
