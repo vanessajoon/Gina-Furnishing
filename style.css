@@ -1484,7 +1484,7 @@ body.showCart{
 
   .vintage-chair {
     height: 50vh;
-    width: 85%;
+    width: 100%;
     margin-left: 1rem;
     position: relative;
   }
@@ -1525,7 +1525,7 @@ body.showCart{
   }
   .vase {
     height: 50vh;
-    width: 85%;
+    width: 100%;
     margin-left: 1rem;
     position: relative;
   }
@@ -1574,7 +1574,7 @@ body.showCart{
   }
   .beach-towel-img {
     height: 41vh;
-    width: 85%;
+    width: 100%;
     margin-left: -0.5px;
   }
   .beach-towel-contents {
