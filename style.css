@@ -1568,8 +1568,8 @@ body.showCart{
     width: 50.1vh;
   }
   .beach-towel {
-    height: 85%;
-    width: 50.1vh;
+    height: 60vh;
+    width: 90%;
     margin-left: -1px;
   }
   .beach-towel-img {
@@ -1622,7 +1622,7 @@ body.showCart{
     display: grid;
   }
   .vintage-chairs {
-    width: 85%;
+    width: 90%;
     margin-left: 10px;
   }
   .second-flexs {
