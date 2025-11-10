@@ -120,7 +120,6 @@ document.addEventListener("DOMContentLoaded", () => {
           <span>${item.quantity}</span>
           <span class="increase" data-index="${index}">+</span>
         </div>
-        <div class="delete"><span class="material-symbols-outlined delete-icon" data-index="${index}">delete</span></div>
       `;
       cartList.appendChild(itemEl);
       total += item.price * item.quantity;

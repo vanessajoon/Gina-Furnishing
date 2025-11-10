@@ -367,6 +367,7 @@ body.showCart{
 .first-flex {
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 .vintage-chair {
   position: relative;
@@ -1166,9 +1167,12 @@ body.showCart{
 .cart-button:hover{
   background-color: cadetblue;
 }
+.display-set .set-img{
+  width: 100%;
+}
 
   .set-img .display-box {
-    width: 60vh;
+    width: 65vh;
     height: 50vh;
   }
   .display-money {
@@ -1281,7 +1285,7 @@ body.showCart{
     height: 100vh;
     width: 70%; /* smaller width for phones */
     max-width: 250px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #f9d370;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
     color: black;
@@ -1339,21 +1343,27 @@ body.showCart{
   .cartTab{
     right: -310px; /* hidden by default */
     width: 310px;
+    background-color: #f9d370;
 
   }
    .cartTab .listCart{
     width: 94%;
     margin-left: 8px;
+    margin-top: -10px;
     
   }
   .listCart .item-name{
-
     margin-left: -20px;
     font-size: 10px;
+  }
+  .cartTab h1{
+    font-size: 20px;
+
   }
   .listCart .totalPrice{
     font-size: 12px;
     margin-right: 15px;
+
   }
   .listCart .quantity{
     margin-left: -60px;
@@ -1368,6 +1378,7 @@ body.showCart{
   }
   .cartTab .btn button{
   width: 25vh;
+  background-color: black;
 }
 }
 
@@ -1422,13 +1433,16 @@ body.showCart{
   .search-section {
     display: none !important;
   }
+  .hero{
+    width: 100%;
+  }
   .hero-page img {
-    height: 150px;
+    height: 180px;
     margin-top: 90px;
   }
   .text {
     margin-top: 80px;
-    margin-left: -70px;
+    margin-left: -75px;
   }
   .hot-deals {
     margin-top: 30px;
@@ -1467,7 +1481,7 @@ body.showCart{
 
   .vintage-chair {
     height: 50vh;
-    width: 50vh;
+    width: 48vh;
     margin-left: 1rem;
     position: relative;
   }
@@ -1490,7 +1504,7 @@ body.showCart{
   margin-top: 10px;
   cursor: pointer;
   position: absolute;
-  top: 160px;
+  top: 180px;
   left: 180px;
   
 }
@@ -1508,7 +1522,7 @@ body.showCart{
   }
   .vase {
     height: 50vh;
-    width: 50vh;
+    width: 48vh;
     margin-left: 1rem;
     position: relative;
   }
@@ -1526,8 +1540,8 @@ body.showCart{
   margin-top: 10px;
   cursor: pointer;
   position: absolute;
-  top: 189px;
-  left: 180;
+  top: 199px;
+  left: 200;
 
 }
   .vase-img {
@@ -1593,6 +1607,10 @@ body.showCart{
 
   .display-box {
     width: 50vh;
+    margin-left: -15px;
+  }
+  .set-img{
+    width: 100%;
   }
   .display-money {
     margin-left: -23px;
@@ -1671,10 +1689,10 @@ body.showCart{
     height: 100vh;
     width: 70%; /* smaller width for phones */
     max-width: 250px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #f9d370;
     backdrop-filter: blur(10px);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
-    color: black;
+    /* box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2); */
+    color: white;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -1698,6 +1716,7 @@ body.showCart{
   .sidebar li {
     list-style: none;
     width: 100%;
+    
   }
 
   .sidebar a {
@@ -1728,6 +1747,7 @@ body.showCart{
   }
   .cartTab{
     height: 100%;
+    background-color: #f9d370;
   }
   
    .listCart{
@@ -1737,6 +1757,7 @@ body.showCart{
   .item-name{
     margin-left: -1.5px;
   }
+ 
   .totalPrice{
     margin-left: -50px;
   }
@@ -1747,7 +1768,8 @@ body.showCart{
     margin-left: -20px;
   }
   .cartTab .btn button{
-  width: 25vh;
+  width: 22vh;
+  background-color: black;
 }
 }
 
@@ -1759,6 +1781,7 @@ body.showCart{
   }
   .hero img{
     height: 300px;
+    width: 100%;
   }
   .hero-page .text{
     margin-right: 4rem;
@@ -1770,13 +1793,13 @@ body.showCart{
     font-size: 28px;
   }
   .text button{
-    padding: 12px 80px;
-    font-size: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
     margin-left: -8px;
   }
   .text button:hover{
-    padding: 12px 80px;
-    font-size: 20px;
+    padding: 12px 20px;
+    font-size: 16;
     margin-left: -8px;
   }
   .first-flex {
@@ -1855,7 +1878,9 @@ body.showCart{
     display: none;
   }
 
-
+.set-img{
+  width: 100%;
+}
 
    .display-box {
     
@@ -1932,6 +1957,7 @@ body.showCart{
   right: -500px;
   width: 500px;
   height: 100%;
+  background-color: #f9d370;
   
 }
 .listCart{
@@ -1944,6 +1970,7 @@ body.showCart{
  
   .cartTab .btn button{
     width: 20vh;
+    background-color: black;
     
 }
 

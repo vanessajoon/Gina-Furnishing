@@ -134,7 +134,9 @@ form div.incorrect input{
 }
 @media (max-width: 768px){
     .wrapper{
-        width: 52vh;
+        width: 49vh;
+        height: 60vh;
+        margin-top: -90px;
     }
     .back{
     position: relative;
@@ -145,8 +147,9 @@ form div.incorrect input{
 }
 .back .back-arrow{
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 1px;
+    margin-top: -70px;
     
 }
 }
