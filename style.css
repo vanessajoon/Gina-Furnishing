@@ -1437,7 +1437,7 @@ body.showCart{
     display: none !important;
   }
   .hero-page{
-    width: 100% !important;
+    width: 110% !important;
   }
   .hero-page img {
     height: 180px;
@@ -1653,10 +1653,10 @@ body.showCart{
     display: none;
   }
   .footer{
-    width: 100%;
+    width: 110%;
   }
   .lower-footer{
-    width: 100%;
+    width: 110%;
   }
   .footer-content3 {
     display: no;
