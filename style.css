@@ -1485,7 +1485,7 @@ body.showCart{
   .vintage-chair {
     height: 50vh;
     width: 100%;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     position: relative;
   }
   .vin-img {
@@ -1526,7 +1526,7 @@ body.showCart{
   .vase {
     height: 50vh;
     width: 100%;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     position: relative;
   }
   .vase-content button{
