@@ -1484,7 +1484,7 @@ body.showCart{
 
   .vintage-chair {
     height: 50vh;
-    width: 80%;
+    width: 85%;
     margin-left: 1rem;
     position: relative;
   }
@@ -1525,7 +1525,7 @@ body.showCart{
   }
   .vase {
     height: 50vh;
-    width: 80%;
+    width: 85%;
     margin-left: 1rem;
     position: relative;
   }
@@ -1568,7 +1568,7 @@ body.showCart{
     width: 50.1vh;
   }
   .beach-towel {
-    height: 60vh;
+    height: 85%;
     width: 50.1vh;
     margin-left: -1px;
   }
@@ -1609,7 +1609,7 @@ body.showCart{
 }
 
   .display-box {
-    width: 70%;
+    width: 80%;
     margin-left: -15px;
   }
   .set-img{
@@ -1622,7 +1622,7 @@ body.showCart{
     display: grid;
   }
   .vintage-chairs {
-    width: 800%;
+    width: 85%;
     margin-left: 10px;
   }
   .second-flexs {
