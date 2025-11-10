@@ -361,6 +361,7 @@ body.showCart{
 
 
 .upper-body {
+  
   display: grid;
   margin-top: 40px;
 }
@@ -1976,9 +1977,3 @@ body.showCart{
 
   
 }
-
-  
- 
-
-
-
