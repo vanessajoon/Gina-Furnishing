@@ -1145,7 +1145,7 @@ body.showCart{
  
   .beach-towel {
     height: 60vh;
-    width:100%;
+    width: 95%;
 
   }
   .beach-towel-img {
@@ -1426,6 +1426,7 @@ body.showCart{
   }
   .hero-page{
     width: 100% !important;
+    height: 40vh;
     
   }
   .hero-page img {
@@ -1543,8 +1544,8 @@ body.showCart{
  
   .beach-towel {
     height: 60vh;
-    width:100%;
-    margin-left: -1px;
+    width:90%;
+    
   }
   .beach-towel-img {
     height: 41vh;
@@ -1852,7 +1853,7 @@ body.showCart{
   }
 
   .first-flex {
-    display: flex;
+    display: grid;
     width: 100%;
   }
 
@@ -1989,7 +1990,7 @@ body.showCart{
     margin-top: -10px;
   }
   .first-flexs {
-    display: flex;
+    display: grid;
     width: 100%;
     gap: 2px;
     overflow-x: hidden;
