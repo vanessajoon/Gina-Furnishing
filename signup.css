@@ -109,7 +109,7 @@ form div.incorrect input{
 
 
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 360px) and (orientation: portrait) {
   .back{
     position: relative;
 }
@@ -123,7 +123,7 @@ form div.incorrect input{
     left: 1px;
 }
    body .wrapper{
-    width: 62vh !important;
+    width: 52vh !important;
    }
    body .wrapper h1{
     padding-left: 6.5rem;
@@ -132,26 +132,65 @@ form div.incorrect input{
     font-size: 24px;
    }
 }
-@media (max-width: 768px){
+
+@media only screen and (min-width: 560px) and (orientation: landscape) {
+  .back{
+    position: relative;
+}
+  .back a{
+    color: black;
+    
+}
+  .back .back-arrow{
+    position: absolute;
+    top: 10px;
+    left: 1px;
+}
+   body .wrapper{
+    width: 80vh !important;
+    height: 80vh;
+    margin-top: 1px;
+   }
+   body .wrapper h1{
+    padding-left: 6.5rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 24px;
+   }
+   
+   input {
+    width: 70vh !important;
+    height: 10vh;
+   }
+}
+
+
+
+@media only screen and (min-width: 361px) and (max-width: 600px) and (orientation: portrait)  {
     .wrapper{
-        width: 49vh;
-        height: 60vh;
-        margin-top: -90px;
+        width: 55vh;
+        
+        /* margin-top: -80px; */
     }
     .back{
     position: relative;
 }
+input{
+    width: 90% !important;
+}
+
 .back a{
     color: black;
     
 }
 .back .back-arrow{
     position: absolute;
-    top: 5px;
+    top: 25px;
     left: 1px;
     margin-top: -70px;
     
 }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -176,3 +215,15 @@ form div.incorrect input{
     
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
